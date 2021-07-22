@@ -1,11 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:foodtopia_apps/shared/shared.dart';
 import 'package:get/get.dart';
+import 'package:flutter/services.dart';
 
 import 'cubit/cubit.dart';
 import 'ui/pages/pages.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+    SystemUiOverlayStyle(
+      statusBarColor: Colors.black,
+    ),
+  );
   runApp(MyApp());
 }
 

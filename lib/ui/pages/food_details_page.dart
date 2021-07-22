@@ -58,7 +58,7 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
                           decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
                               color: mainColor),
-                          child: Image.asset('assets/back_arrow.png', color: Colors.black),
+                          child: Image.asset('assets/back_arrow.png', color: Colors.black54),
                         ),
                       ),
                     ),

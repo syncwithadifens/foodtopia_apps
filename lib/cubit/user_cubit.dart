@@ -37,7 +37,7 @@ class UserCubit extends Cubit<UserState> {
 
     if (result.value != null) {
       emit(UserLoaded((state as UserLoaded).user.copyWith(
-          picturePath: "http://192.168.10.107:8000/storage/" +
+          picturePath: "http://192.168.10.103:8000/storage/" +
               result.value)));
     }
   }

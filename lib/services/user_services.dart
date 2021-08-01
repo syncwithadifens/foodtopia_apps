@@ -59,7 +59,7 @@ class UserServices {
       if (result.value != null) {
         value = value.copyWith(
             picturePath:
-                "http://192.168.10.103:8000/storage/" +
+                "http://192.168.10.101:8000/storage/" +
                     result.value);
       }
     }
